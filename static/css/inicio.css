@@ -1,3 +1,9 @@
+.orbital{
+    padding: 80px;
+    padding-left: 109px;
+    display: inline-flex;
+}
+
 .circular__image {
     display: inline-block;
     top: 175px;
@@ -14,12 +20,6 @@
     width: auto;
     height: 100%;
     margin-left: -50px;    
-}
-
-.orbital{
-    padding: 80px;
-    padding-left: 109px;
-    display: inline-flex;
 }
 
 .cilindro__contenedor{
