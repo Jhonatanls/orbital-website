@@ -13,21 +13,21 @@
     <header>
         {% include 'navbar.html' %}
     </header>
+
     <body>
-        <section class="orbital">
-            <div class="circular__image">
-                <img src="/static/images/una-foto-de-una-zona-con-computadores-con-codigos.jpg" alt="" >
-                
-            </div>
-            <div class="cilindro__contenedor">
-                <h1>HOLA</h1>
-            </div>
-        </section>
         
+        {% block content %}
+
+        
+
+        {% endblock %}
+
     </body>
+
     <footer>
         {% include 'footer.html' %}
     </footer>
+    
 
 
 </html>
