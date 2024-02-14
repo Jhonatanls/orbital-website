@@ -1,14 +1,17 @@
 {% url 'index' as index %}
+{% url 'nosotros' as nosotros %}
+{% url 'contacto' as contacto %}
+{% url 'cotizar' as cotizar %}
+
 <!--Estilos de CSS-->
 <link rel="stylesheet" href="/static/css/navbar.css">
-<header>
-       <img class="logo" src="/static/images/LOGO_completo_sin_fondo.png" alt="Logo">
+
+    <img class="logo" src="/static/images/LOGO_completo_sin_fondo.png" alt="Logo">
     <nav>
       <ul class="navbar-items">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="{{index}}">Inicio</a></li>
+          <li><a href="{{nosotros}}">Nosotros</a></li>
+          <li><a href="{{contacto}}">Contacto</a></li>
       </ul>
     </nav>
-    <a href="#" class="cta"><button>COTIZAR</button></a>
-</header>
+    <a href="{{cotizar}}" class="cta"><button>COTIZAR</button></a>

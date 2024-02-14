@@ -6,13 +6,6 @@ li, a, button {
     text-decoration: none;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 15px 5%;
-}
-
 .logo{
     cursor:pointer;
     margin-right: auto;
