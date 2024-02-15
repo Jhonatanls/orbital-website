@@ -4,7 +4,43 @@
 <link rel="stylesheet" href="/static/css/contacto.css">
 
 <section class="formulario__contacto">
+    <div class="logo">
+        <div class="logo__circular">
+            <img src="/static/images/solo_LOGO.png" alt="Logo">
+        </div>
+    </div>
+    
     <div class="container_form">
+        <form method = "POST">
+            <div class="text_">
+                <div class="name">
+                    <h1>{{ form.name.label }}</h1>
+                    {{ form.name }}
+                </div>
+                <div class="service">
+                    <h1>{{ form.service.label }}</h1>
+                    {{ form.service }}
+                </div>
+            </div>
+            <div class="text_1">
+                <div class="email">
+                    <h1>{{ form.email.label }}</h1>
+                    {{ form.email}}
+                </div>
+            </div>
+            <div class="text_2">
+                <div class="descripcion">
+                    <h1>{{ form.description.label }}</h1>
+                </div>
+                <div class="textarea">
+                    {{ form.description }}
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Enviar información" class="boton">
+                </div>
+            </div>
+        </form>
+    </div>
         
     </div>
 </section>
