@@ -1,0 +1,17 @@
+.formulario__contacto {
+    padding-left: 344px;
+    padding-top: 295px;
+    padding-right: 342px;
+    padding-bottom: 178px;
+}
+
+.container_form {
+    top: 295px;
+    left: 344px;
+    width: 1234px;
+    height: 1210px;
+    background: #F1F9FF 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    opacity: 1;
+}
+
